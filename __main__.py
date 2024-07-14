@@ -1,10 +1,3 @@
-import os
-import warnings
-
-# Suppress TensorFlow and general warnings
-os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
-warnings.filterwarnings('ignore')
-
 import cv2
 from cvzone.HandTrackingModule import HandDetector
 import numpy as np
