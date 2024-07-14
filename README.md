@@ -37,15 +37,12 @@ hand_gesture_recognition.py
 ##  Explanation of the Script
 Importing Libraries
 ```bash
-import os
-import warnings
 import cv2
 from cvzone.HandTrackingModule import HandDetector
 import numpy as np
 import google.generativeai as genai
 from PIL import Image
 ```
-* os and warnings: Used to suppress TensorFlow and general warnings.
 * cv2: OpenCV library for computer vision tasks.
 * cvzone.HandTrackingModule: For hand tracking and gesture recognition.
 * numpy: For numerical operations.
