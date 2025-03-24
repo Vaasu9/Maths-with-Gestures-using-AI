@@ -1,4 +1,4 @@
-# Maths-with-Gestures-using-AI
+# GesturaMath: AI-Powered Mathematical Gestures
 This project involves real-time hand gesture recognition using OpenCV and the cvzone library for hand tracking. It also integrates Google Generative AI for interacting with the detected gestures. The program uses a webcam to capture the video feed, detects hand gestures, and performs actions such as drawing on a canvas or clearing the canvas based on the recognized gestures. Additionally, it sends the canvas image to the Google Generative AI model to solve a math problem drawn on the canvas.
 
 ## Requirements
